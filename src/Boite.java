@@ -1,3 +1,4 @@
+// ConcreteProduct
 public class Boite implements IBoite {
     private EBoxType type;
 

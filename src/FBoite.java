@@ -1,4 +1,5 @@
-public class FBoite {
+// ConcreteCreator
+public class FBoite implements IFBoite {
     public static Boite creerBoite(EBoxType type) {
         switch(type) {
             case BOIS -> {
